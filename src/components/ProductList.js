@@ -1,11 +1,18 @@
-import React, { Component } from 'react'
-import Product from './Product'
+import React, { Component } from 'react';
+import Product from './Product';
+import {ButtonContainer} from './StyledComponent'
 export default class ProductList extends Component {
+  state={
+    Product:[]
+  }
   render() {
     return (
-      <div>
-        <h3>hello from ProductList</h3>
-      </div>
+      <React.Fragment>
+        <div className="py-5">This page is under construction.</div>
+        <ButtonContainer>
+          submit
+        </ButtonContainer>
+      </React.Fragment>
     )
   }
 }
