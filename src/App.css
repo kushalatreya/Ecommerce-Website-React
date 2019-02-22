@@ -4,7 +4,7 @@
   --lightBlue:#009ffd;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
-  --mainYello:#ffa400;
+  --mainYellow:#ffa400;
 }
 /* since there is bootstraps in App.js, we have set font as important so, this css will get presedence */
 body{
